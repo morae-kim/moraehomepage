@@ -655,3 +655,11 @@ figure {
 .text-uppercase {
   margin-left: 0;
 }
+
+.moraebtnin {
+  height: auto;
+}
+
+.moraebtn {
+  font-size: medium;
+}
