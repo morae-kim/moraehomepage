@@ -43,6 +43,12 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.mainimg {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+
 .tm-page-header {
   color: #444444;
   display: -webkit-box;
@@ -250,11 +256,9 @@ p:last-child {
   height: 180px;
 }
 
-
 .tm-activity-img-morae {
   width: 150px;
   height: 150px;
-  
 }
 
 .tm-company-section {
@@ -288,11 +292,9 @@ p:last-child {
   padding: 10px 30px;
 }
 
-
-
 .ttm-btn {
   background-color: transparent;
-  padding:  300px 50%x;
+  padding: 300px 50%x;
 }
 
 .tm-btn-morae {
@@ -342,18 +344,13 @@ p:last-child {
   display: flex;
 }
 
-.ttm-float-right-morae{
-  float: left;}
-
-
+.ttm-float-right-morae {
+  float: left;
+}
 
 .tttm-float-right {
   float: center;
 }
-
-
-
-
 
 .tm-btn-morae:hover {
   color: #5e5e5e;
@@ -413,7 +410,6 @@ p:last-child {
   margin-top: 40px;
   padding-bottom: 90px;
 }
-
 
 .tm-contact-left {
   margin-bottom: 30px;
@@ -521,12 +517,9 @@ figure {
   }
 }
 
-
 .container-info {
   max-width: 1233%;
 }
-
-
 
 @media (min-width: 1200px) {
   .container {
@@ -536,9 +529,6 @@ figure {
   .container-morae {
     max-width: 100%;
   }
-
-  
-
 
   .tm-company-about {
     flex-direction: row;
