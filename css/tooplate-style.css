@@ -76,7 +76,7 @@ p:last-child {
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-  padding: 10px 35px;
+  padding: 50px 30px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -245,6 +245,17 @@ p:last-child {
   width: 180px;
   height: 180px;
 }
+.ttm-activity-img-container {
+  width: 180px;
+  height: 180px;
+}
+
+
+.tm-activity-img-morae {
+  width: 150px;
+  height: 150px;
+  
+}
 
 .tm-company-section {
   padding-top: 53px;
@@ -275,6 +286,21 @@ p:last-child {
   background-color: transparent;
   color: #6c6c6c;
   padding: 10px 30px;
+}
+
+
+
+.ttm-btn {
+  background-color: transparent;
+  padding:  300px 50%x;
+}
+
+.tm-btn-morae {
+  border: 2px solid #829ec9;
+  border-radius: 2;
+  background-color: #6a90c9;
+  color: #ffffff;
+  padding: 3px 15px;
 }
 
 .moraebtnin {
@@ -314,6 +340,24 @@ p:last-child {
 
 .ttm-float-right {
   display: flex;
+}
+
+.ttm-float-right-morae{
+  float: left;}
+
+
+
+.tttm-float-right {
+  float: center;
+}
+
+
+
+
+
+.tm-btn-morae:hover {
+  color: #5e5e5e;
+  background-color: #eaeaea;
 }
 
 .tm-float-rightsss {
@@ -369,6 +413,7 @@ p:last-child {
   margin-top: 40px;
   padding-bottom: 90px;
 }
+
 
 .tm-contact-left {
   margin-bottom: 30px;
@@ -476,10 +521,24 @@ figure {
   }
 }
 
+
+.container-info {
+  max-width: 1233%;
+}
+
+
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1233px;
   }
+
+  .container-morae {
+    max-width: 100%;
+  }
+
+  
+
 
   .tm-company-about {
     flex-direction: row;
